@@ -227,7 +227,11 @@ function bot() {
                 clearInterval(talkinnterval);
                 blinking();
             }, Math.floor(Math.random() * (4000 - 1500 + 1) + 1500))
-        } else if (input == "what are you?" || input == "who are you?") {
+        } else if (input == "more rgb") {
+          window.location.replace("http://localhost:63342/Computing/Pats-Chat-Bot-rgb-seizure-edition/index.html?_ijt=pf74nqp7hq979k4qnv4rok9ipo");
+        }
+
+        else if (input == "what are you?" || input == "who are you?") {
             lastresponse = "what are you";
             var outputs = ["I am a pretty good chatbot in making! What are you?"];
             var output = outputs[Math.floor((Math.random() * outputs.length))];
